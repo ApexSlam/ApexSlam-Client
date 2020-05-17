@@ -1,8 +1,8 @@
 import 'phaser';
 
-import { sky, clouds } from '../assets/backgrounds';
-import { bandit } from '../assets/characters';
-import { basicPlatform } from '../assets/platforms';
+import { sky, clouds } from '../handles/backgrounds';
+import { bandit } from '../handles/characters';
+import { basicPlatform } from '../handles/platforms';
 
 export default class SkyTower extends Phaser.Scene {
     private platforms: Phaser.Physics.Arcade.StaticGroup;
